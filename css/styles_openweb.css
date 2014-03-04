@@ -1,0 +1,98 @@
+*
+{
+ text-shadow:1px 1px 1px black;
+}
+@font-face {
+			font-family: 'File';
+			 src: url('../fonts/File.otf');
+			font-family: 'FiraSans Light';
+			 src: url('../fonts/FiraSans-Light.otf');
+		    }
+		  h1{
+			font-family: 'FiraSans Light';
+			 color: #a49a00;
+			}
+		body{
+			 font-family: 'FiraSans Light';
+			 background-color:#8f0f8d;
+			 margin-left:10px;
+			 margin-right:10px;
+			 margin-top:10px;
+			 overflow-y:hidden;
+			 overflow-x:hidden;
+			}
+		  ul{
+			 margin-left:-65px;
+			}
+		   li{
+			 margin-left:20px;
+			 display:inline-block;
+			 list-style-type:none;
+			}		
+		table{
+				margin-top:-10px;			 	
+			}
+		td{
+			border:2px #fff solid;
+			color:#fff;
+			font-size:12pt;
+			text-align:center;
+		   }
+
+		.highscore{
+				text-align:right;
+				margin-right:0;
+				color:#fff;
+
+				color:#fff;
+				}
+		#highScore{
+				color:#a49a00;
+				}
+		#currentScore{
+				color:#a49a00;
+				}
+		#finalScore{
+				color:#a49a00;
+				}
+		#level{
+				color:#fff;
+				font-size:15pt;
+				}
+		#currentLevel{
+				color:#d6732b;
+				font-size:15pt;
+				}
+		#currentProgress{
+				color:#a49a00;
+
+				}
+		#totalProgress{
+				color:#a49a00;
+
+				}
+		#progress{
+				text-align:right;
+				color:#a49a00;
+				font-size:15pt;
+				}
+		/*games toggle*/
+		#questionBar{
+				background-color:#510574;
+				height: 60px;
+				text-align:center;
+				border:2px #fff solid;
+				padding:0;
+				}
+		#question{
+				font-size:20pt;
+				color:#fff;
+				}
+		#toggle-128, #toggle-64, #toggle-32, #toggle-16, #toggle-8, #toggle-4, #toggle-2, #toggle-1{	
+				border:1px #fff solid;
+				border-radius:10px;
+				background-color:#a49a00;
+				font-size:13pt;
+				color:white;
+				}
+		
